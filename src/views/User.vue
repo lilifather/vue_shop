@@ -65,7 +65,7 @@
     <!-- 弹出添加用户对话框 -->
     <el-dialog title="添加用户" :visible.sync="dialogVisible">
       <el-form v-model="addUserForm" :rules="addUserRules">
-    <el-form-item prop="username" label="用户名" label-width="80px">
+    <el-form-item prop="userName" label="用户名" label-width="80px">
       <el-input  v-model="addUserForm.userName" ></el-input>
     </el-form-item>
     <el-form-item prop="password" label="密码" label-width="80px" >
@@ -74,8 +74,8 @@
     <el-form-item prop="email" label="邮箱" label-width="80px">
       <el-input  v-model="addUserForm.email" ></el-input>
     </el-form-item>
-    <el-form-item prop="mobilePhone" label="电话号码" label-width="80px">
-      <el-input  v-model="addUserForm.mobilePhone" ></el-input>
+    <el-form-item prop="mobile" label="电话号码" label-width="80px">
+      <el-input  v-model="addUserForm.mobile" ></el-input>
     </el-form-item>
   </el-form>
   <div slot="footer" class="dialog-footer">

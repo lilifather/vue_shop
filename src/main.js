@@ -22,7 +22,7 @@ Vue.axios.interceptors.request.use(function (config) {
 })
 
 Vue.config.productionTip = false
-
+// aaaaaaa
 new Vue({
   router,
   render: h => h(App)
